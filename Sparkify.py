@@ -29,13 +29,8 @@ import datetime
 
 import numpy as np
 import pandas as pd
-get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
-# In[2]:
-
 
 
 # create a Spark session
@@ -44,9 +39,6 @@ spark = SparkSession     .builder     .appName("Sparkify Project")     .getOrCre
 
 # # Load and Clean Dataset
 # In this workspace, the mini-dataset file is `mini_sparkify_event_data.json`. Load and clean the dataset, checking for invalid or missing data - for example, records without userids or sessionids. 
-
-# In[3]:
-
 
 
 #Load The data
